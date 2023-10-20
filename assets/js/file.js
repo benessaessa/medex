@@ -53,9 +53,9 @@ var swiperBrands = new Swiper('.newBrands .swiper-container', {
       el: ".swiper-pagination",
       clickable: true,
     },
-    // autoplay: {
-    //   delay: 6000
-    // },
+    autoplay: {
+      delay: 1000
+    },
  
     breakpoints: {
         300: {
